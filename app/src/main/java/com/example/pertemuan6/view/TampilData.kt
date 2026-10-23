@@ -1,5 +1,6 @@
 package com.example.pertemuan6.view
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.res.colorResource
 
@@ -21,6 +22,13 @@ fun TampilData(
                     colorResource(id = R.color.teal_700))
             )
         }){ isiRuang ->
+        Column(modifier = Modifier.padding(isiRuang),
+            verticalArrangement = Arrangement.SpaceBetween,) {
+            Column(modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_medium)),
+                verticalArrangement = Arrangement.spacedBy (
+                    dimensionResource(id = R.dimen.padding_small))) {
+                items.forEach { item ->
+            }
 
 
     }
