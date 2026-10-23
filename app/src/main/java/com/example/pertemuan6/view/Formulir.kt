@@ -57,6 +57,8 @@ fun FormIsian(
                 onValueChange = {}
             )
 
-
+            HorizontalDivider(
+            )
+        }
     }
 }
